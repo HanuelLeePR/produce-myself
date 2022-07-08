@@ -11,6 +11,8 @@ function dayNightChange() {
         document.querySelector('#temp1').style.backgroundColor='white';
         document.querySelector('#temp2').style.backgroundColor='white';
         document.querySelector('#temp3').style.backgroundColor='white';
+        document.querySelector('#temp4').style.backgroundColor='white';
+        document.querySelector('#temp5').style.backgroundColor='white';
         document.querySelector('.md').style.backgroundColor='white';
         document.getElementById('dayNight').src='./moon.png';
         document.querySelector('#day').value = 'night';
@@ -27,6 +29,8 @@ function dayNightChange() {
         document.querySelector('#temp1').style.backgroundColor='black';
         document.querySelector('#temp2').style.backgroundColor='black';
         document.querySelector('#temp3').style.backgroundColor='black';
+        document.querySelector('#temp4').style.backgroundColor='black';
+        document.querySelector('#temp5').style.backgroundColor='black';
         document.querySelector('.md').style.backgroundColor='black';
         document.getElementById('dayNight').src='./sun.png';
         document.querySelector('#day').value = 'day';
